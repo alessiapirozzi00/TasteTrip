@@ -99,9 +99,12 @@ get_header();
         border-radius: 8px;
         max-width: 300px;
     }
+
+
 </style>
 
 <div id="tasteTripApp">
+
     <h1>🌍</h1>
 
     <label for="country" style="display: block; margin: 10px auto;">Choose a Country:</label>
@@ -230,6 +233,16 @@ get_header();
         });
     });
 </script>
+
+<!-- Bottone per tornare alla home -->
+<div style="text-align:center; margin-top:50px;">
+    <a href="<?php echo home_url('/'); ?>"
+       class="btn"
+       style="display:inline-block; padding:15px 30px; background:#ffcc80; color:#4e342e; border-radius:10px; text-decoration:none; font-family:'Comic Sans MS', cursive; font-size:18px; font-weight:bold;">
+        🏠 Torna alla Home
+    </a>
+</div>
+
 
 
 
